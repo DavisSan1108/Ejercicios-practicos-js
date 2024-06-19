@@ -1,0 +1,63 @@
+body {
+    background-color: #231f20; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #f4d03f; /* Color amarillo */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #2c3e50; /* Color azul oscuro */
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #f4d03f; /* Color amarillo */
+    color: #000000; /* Color de texto negro */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f7dc6f; /* Color amarillo claro al pasar el mouse */
+}
+
+#resultado-cadena,
+#resultado-numeroPrimo,
+#resultado-arregloDuplicados,
+#resultado-numeroFactorial,
+#resultado-cadenaVocales,
+#resultado-arregloSumar,
+#resultado-arregloMaximo {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f4d03f; /* Color amarillo */
+    color: #000000; /* Color de texto negro */
+    border-radius: 5px;
+}
